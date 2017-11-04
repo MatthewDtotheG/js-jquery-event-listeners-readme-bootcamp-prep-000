@@ -10,6 +10,10 @@ function frameIt() {
     .addClass('tasty');
 }
 
+function pressIt() {
+
+}
+
 $(document).ready(function() {
   // call functions here
   frameIt();
