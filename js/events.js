@@ -5,9 +5,10 @@ function getIt() {
 }
 
 function frameIt() {
-  $('p').on('click');
-  alert('Hey!');
+  $('.tasty').on('load');
+
 }
+
 $(document).ready(function() {
   // call functions here
   getIt();
