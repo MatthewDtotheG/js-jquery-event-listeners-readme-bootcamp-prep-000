@@ -29,6 +29,7 @@ function submitIt() {
 
 $(document).ready(function() {
   // call functions here
+  submitIt();
   pressIt();
   frameIt();
   getIt();
