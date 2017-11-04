@@ -5,10 +5,13 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('load').append('.tasty');
+  $('img')
+    .on('load')
+    .append('.tasty');
 }
 
 $(document).ready(function() {
   // call functions here
+  frameIt();
   getIt();
 });
