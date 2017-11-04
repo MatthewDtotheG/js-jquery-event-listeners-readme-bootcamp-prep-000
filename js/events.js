@@ -18,10 +18,8 @@ function pressIt() {
   });
 }
 
-function frameIt() {
-  $('img')
-    .on('load')
-    .addClass('tasty');
+function submitIt() {
+
 }
 
 $(document).ready(function() {
